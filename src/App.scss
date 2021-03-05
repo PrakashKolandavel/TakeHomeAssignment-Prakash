@@ -1,0 +1,123 @@
+
+.navLink{
+    margin:0% 3%;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.icon{
+    display: none;
+}
+.menu_bar_responsive{
+    display:none;
+}
+ @media only screen and (max-width:540px){
+    .menu_bar{
+        display: none !important;
+    }
+    .menu_bar_responsive{
+            display: inline;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 12pt;
+            position: absolute;
+    background-color: white;
+    width: 40%;
+    top: 2%;
+    left: 15%;
+    .navLink{
+        margin-left:-20% !important;
+    }
+    .icon{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: -25%;
+    }
+            span{
+                position: relative;
+                left: 47%;
+            }
+            .menu{
+            border:none !important;
+            }
+        
+    }
+    .icon{
+        display: block;
+        margin-left: 3%;
+    }
+    .profile_Sec{
+        position: absolute;
+    right: 5%;
+    display: flex;
+}
+    }
+    
+ 
+
+@media only screen and (max-width: 425px) {
+    .invite_zone{
+        font-size: 8pt !important;
+        .invite_button{
+            font-size: 7pt !important;
+            padding: 2px 5px !important;
+        }
+    }
+    .anchor_tag{
+        font-size: 8pt !important;
+        margin: 5px 0px !important;
+
+    }
+    .filter_sort_sec{
+        display: inline !important;
+    .filter_section{
+        .filter{
+            font-size: 10pt !important; 
+            margin-right: 5px !important;
+        }
+    }
+    .filter_buttons{
+        button{
+            margin-left: 5px !important;
+            padding: 5px 7px !important;
+            font-size: 6pt !important;
+        }
+    }
+    .sort_Sec{
+        padding: 0px !important;
+        .selcte_Sec{
+            width: 100 !important;
+        }
+    }
+}
+}
+@media only screen and (max-width: 800px){
+    .sort_Sec_main{
+        display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    }
+        .filter_sort_sec{
+            display: inline !important;
+            .sort_Sec{
+                padding: 0px !important;
+                .selcte_Sec{
+                    width: 100 !important;
+                }
+            }
+        }
+        .row_data{
+            display: flex !important;
+            justify-content: center !important;
+            margin: 0px !important;
+        }
+        .content_column{
+        &:hover{
+            .size{
+                position: relative !important;
+    
+            }
+        }
+        }
+    
+}

@@ -1,0 +1,233 @@
+.main_container{
+    overflow-x: hidden;
+.title_comp{
+    margin:0px 20px;
+    border-bottom :1px solid rgba(196, 193, 193, 0.5);
+.anchor_tag{
+    display: flex;
+    margin: 10px 0px;
+    .anchor{
+        color:black;
+        margin-right: 4px;
+    }
+}
+.products{
+    font-weight: bold;
+    font-size: 16pt;
+
+    span{
+        margin-left: 4px;
+        font-weight: 100;
+        font-size: 18pt;
+    }
+}
+.filter_sort_sec{
+    display: flex;
+    align-items: center;
+.filter_section{
+    margin:10px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    .filter{
+        font-weight: bold;
+        font-size: 14pt; 
+        margin-right: 15px;
+    }
+    .filter_buttons{
+        button{
+        cursor: pointer;
+        margin-left: 10px;
+        padding: 10px 15px;
+        outline: none;
+        box-shadow:none;
+        border:0.5px solid #969696;
+        background-color: white;
+        color:#969696 ;
+        border-radius: 25px;
+        }
+    }
+}
+.sort_Sec{
+    border: 0.5px solid black !important;
+    border-radius: 22px !important;
+    padding: 4px 20px !important;
+    width: 249px;
+    .selcte_Sec{
+        width: 160px;
+    }
+
+}
+
+
+}
+}
+.body_container{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 2%;
+    .content_column{
+        margin:1%;
+        min-height: 250px;
+        flex: 0.2;
+        margin-right: 3%;
+        &:hover{
+            .size{
+                display: block;
+                position: absolute;
+            }
+            .object_content_Sec{
+                display: none;
+            }
+            .content_img{
+                height: 320px;
+            }
+        }
+    .content_img{
+        background-color: #F0F2F5;
+        height: 350px;
+        width: 250px;
+        
+    }
+    .size{
+        display: none;
+        .select_size{
+            font-size: 10pt;
+            font-weight: bold;
+        }
+        .add_to_cart{
+            display: none;
+            width: 100%;
+            margin-top: 2%;
+            .cart_button{
+                outline: none;
+                box-shadow: none;
+                cursor:pointer;
+                border: 0.5px solid black;
+                font-weight: bold;
+                font-size: 11pt;
+                background-color: white;
+                width:250px;
+                padding:5px 0px;
+            }
+        }
+        .size_button{
+            cursor:pointer;
+            margin:0px 5px;
+            background-color: white;
+            border: 0.5px solid #CBCBCB;
+            border-radius: 50px;
+            font-weight: 500;
+           width: 40px;
+           height: 40px;
+           outline: none;
+           box-shadow: none;
+        }
+        .size_chart{
+            margin-top: 10px;
+            color:#D2D2D2;
+            label{
+                margin:0px 3px;
+            }
+        }
+    }
+  
+    .object_content_Sec{
+        margin:2% 0% 0% 4%;
+   
+}
+}
+}
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+.logo{
+    background-color: #E94D08;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.menu_bar{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 12pt;
+    .menu{
+    border:none !important;
+    }
+}
+.profile_Sec{
+    width:30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .icon_logo{
+        width: 50px !important;
+        margin-left:10px;
+    }
+}
+}
+.invite_zone{
+    width: 100%;
+    height: 8vh;
+    background: linear-gradient(to right,black,#CF460A);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 13pt;
+    .invite_button{
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+        outline: none;
+        box-shadow: none;
+        border: none;
+        font-size: 10pt;
+        padding: 5px 10px;
+        font-weight: 500;
+
+    }
+}
+
+.content_bold{
+    font-weight: bold;
+    font-size: 12pt;
+}
+.content_title{
+    color: rgb(210, 210, 210);
+    font-size: 10pt;
+
+}
+.margin_left{
+    margin-left: 3%;
+}
+.discount{
+    margin-left: 1%;
+    color: red;
+    font-size: 10pt;
+}
+
+.bold{
+    font-weight: 500;
+}
+    .ant-select-selector{
+        border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    }
+    .ant-select-selection-item{
+        font-weight: 500 !important;
+    }
+    .ant-select-arrow{
+        color:black !important;
+    }
+
+
+  

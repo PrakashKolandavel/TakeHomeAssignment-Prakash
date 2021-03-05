@@ -1,0 +1,5 @@
+export const ConstantData = {
+    GET_CART_DATA:'GET_CART_DATA',
+    SEND_CART_DATA:'SEND_CART_DATA',
+    GET_DATA_FROM_CART:'GET_DATA_FROM_CART'
+}
